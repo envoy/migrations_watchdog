@@ -28,7 +28,7 @@ Migrations and app code detected. Move out the following files:
 app/models/foo.rb
 ```
 
-At [Envoy](https://envoy.com] we use this tool in our CI flow to force separation between migration and app code changes in each pull request.
+At [Envoy](https://envoy.com/jobs/) we use this tool in our CI flow to force separation between migration and app code changes in each pull request.
 
 Our CircleCI configuration has a task like the following:
 

@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'migrations_watchdog'
+
+MigrationsWatchdog.check(ARGV)
